@@ -1,0 +1,349 @@
+{
+ "_note": "Quiz bank for Abigail's past tense course (Units 10-14). 'answer' is a 0-based index into options.",
+ "unit-10": {
+  "title": "Unit 10 — was / were",
+  "questions": [
+   {
+    "q": "Yesterday I ______ at the beach.",
+    "options": [
+     "was",
+     "were",
+     "am"
+    ],
+    "answer": 0,
+    "why": "'I' takes WAS in the past. (I was / he was / she was / it was)"
+   },
+   {
+    "q": "They ______ very tired after the match.",
+    "options": [
+     "was",
+     "were",
+     "is"
+    ],
+    "answer": 1,
+    "why": "'They' (more than one) takes WERE."
+   },
+   {
+    "q": "She ______ at school last Monday.",
+    "options": [
+     "were",
+     "was",
+     "are"
+    ],
+    "answer": 1,
+    "why": "'She' is one person → WAS."
+   },
+   {
+    "q": "Which is the correct negative?",
+    "options": [
+     "I weren't happy.",
+     "I wasn't happy.",
+     "I didn't was happy."
+    ],
+    "answer": 1,
+    "why": "'I' → WASN'T. And was/were never use 'did'!"
+   },
+   {
+    "q": "Make it a question: 'You were at home.'",
+    "options": [
+     "Were you at home?",
+     "You were at home?",
+     "Did you were at home?"
+    ],
+    "answer": 0,
+    "why": "Just move WERE to the front. No 'did' needed."
+   },
+   {
+    "q": "'Were you at school?' — correct short answer?",
+    "options": [
+     "Yes.",
+     "Yes, I was.",
+     "Yes, I did."
+    ],
+    "answer": 1,
+    "why": "Short answers always repeat the helping word: 'Yes, I was.' Never answer with just 'Yes'."
+   }
+  ]
+ },
+ "unit-11": {
+  "title": "Unit 11 — Past Simple",
+  "questions": [
+   {
+    "q": "Yesterday I ______ football with my brother.",
+    "options": [
+     "play",
+     "played",
+     "playing"
+    ],
+    "answer": 1,
+    "why": "'Yesterday' + a finished action → past simple 'played'."
+   },
+   {
+    "q": "The past of 'go' is…",
+    "options": [
+     "goed",
+     "went",
+     "gone to"
+    ],
+    "answer": 1,
+    "why": "'Go' is irregular: go → went."
+   },
+   {
+    "q": "She ______ a great film last night.",
+    "options": [
+     "see",
+     "saw",
+     "seed"
+    ],
+    "answer": 1,
+    "why": "'See' is irregular: see → saw."
+   },
+   {
+    "q": "What is the correct -ed spelling of 'stop'?",
+    "options": [
+     "stoped",
+     "stopped",
+     "stopd"
+    ],
+    "answer": 1,
+    "why": "Short verb (consonant+vowel+consonant): double the last letter → stopped."
+   },
+   {
+    "q": "What is the correct -ed spelling of 'study'?",
+    "options": [
+     "studyed",
+     "studied",
+     "studed"
+    ],
+    "answer": 1,
+    "why": "Consonant + y → change y to ied: study → studied."
+   },
+   {
+    "q": "Which time word means the past simple is needed?",
+    "options": [
+     "tomorrow",
+     "two days ago",
+     "every day"
+    ],
+    "answer": 1,
+    "why": "'Ago', 'yesterday' and 'last…' all point to the finished past."
+   }
+  ]
+ },
+ "unit-12": {
+  "title": "Unit 12 — didn't / Did you…? ⭐",
+  "questions": [
+   {
+    "q": "I ______ to school yesterday because I was ill.",
+    "options": [
+     "didn't went",
+     "didn't go",
+     "don't go"
+    ],
+    "answer": 1,
+    "why": "'didn't' is already past → the next verb goes back to the base form: didn't GO. Never 'didn't went'!"
+   },
+   {
+    "q": "______ you ______ the film last night?",
+    "options": [
+     "Did / saw",
+     "Did / see",
+     "Do / see"
+    ],
+    "answer": 1,
+    "why": "Did + person + BASE verb: 'Did you see…?' Never 'Did you saw'."
+   },
+   {
+    "q": "She didn't ______ her homework.",
+    "options": [
+     "finish",
+     "finished",
+     "finishing"
+    ],
+    "answer": 0,
+    "why": "After 'didn't' the verb is always the base form: didn't FINISH."
+   },
+   {
+    "q": "'Did you like the film?' — correct short answer?",
+    "options": [
+     "Yes, I liked.",
+     "Yes, I did.",
+     "Yes, I was."
+    ],
+    "answer": 1,
+    "why": "Short answers use did/didn't: 'Yes, I did.'"
+   },
+   {
+    "q": "Which question is CORRECT?",
+    "options": [
+     "Did you were tired?",
+     "Were you tired?",
+     "Did you was tired?"
+    ],
+    "answer": 1,
+    "why": "There's no other verb here, only 'be' → use WERE at the front. did and was/were never go together."
+   },
+   {
+    "q": "What is the negative of 'They ate the cake'?",
+    "options": [
+     "They didn't ate the cake.",
+     "They didn't eat the cake.",
+     "They not ate the cake."
+    ],
+    "answer": 1,
+    "why": "ate → eat after didn't: 'They didn't eat the cake.'"
+   },
+   {
+    "q": "Which sentence is wrong?",
+    "options": [
+     "I didn't see him.",
+     "Did she call you?",
+     "He didn't went home."
+    ],
+    "answer": 2,
+    "why": "'didn't went' is wrong — it must be 'He didn't GO home.' Only one past is allowed!"
+   },
+   {
+    "q": "Why must we say 'Did you go?' and not 'Did you went?'",
+    "options": [
+     "Because 'did' is already the past, so the main verb stays in base form",
+     "Because 'went' is not a real word",
+     "Because questions never use past verbs",
+     "Because 'did' is present"
+    ],
+    "answer": 0,
+    "why": "One past only. 'Did' carries the past, so the main verb relaxes into its base form."
+   }
+  ]
+ },
+ "unit-13": {
+  "title": "Unit 13 — Past Continuous",
+  "questions": [
+   {
+    "q": "At 8 o'clock last night I ______ my homework.",
+    "options": [
+     "did",
+     "was doing",
+     "do"
+    ],
+    "answer": 1,
+    "why": "An action in progress at a past moment → was/were + -ing."
+   },
+   {
+    "q": "They ______ football when I arrived.",
+    "options": [
+     "was playing",
+     "were playing",
+     "played"
+    ],
+    "answer": 1,
+    "why": "'They' → WERE + playing."
+   },
+   {
+    "q": "What is the correct -ing form of 'run'?",
+    "options": [
+     "runing",
+     "running",
+     "runnning"
+    ],
+    "answer": 1,
+    "why": "Short verb (consonant+vowel+consonant): double the last letter → running."
+   },
+   {
+    "q": "What is the correct -ing form of 'write'?",
+    "options": [
+     "writeing",
+     "writing",
+     "writting"
+    ],
+    "answer": 1,
+    "why": "Verbs ending in e drop the e: write → writing."
+   },
+   {
+    "q": "'Was she sleeping?' — correct short answer?",
+    "options": [
+     "Yes, she was.",
+     "Yes, she did.",
+     "Yes, she slept."
+    ],
+    "answer": 0,
+    "why": "Answer with the same helping word: 'Yes, she was.'"
+   },
+   {
+    "q": "Which is correct?",
+    "options": [
+     "I was play football.",
+     "I was playing football.",
+     "I playing football."
+    ],
+    "answer": 1,
+    "why": "was/were and -ing always go together — like shoes and socks!"
+   }
+  ]
+ },
+ "unit-14": {
+  "title": "Unit 14 — was doing + did",
+  "questions": [
+   {
+    "q": "I ______ home when it started to rain.",
+    "options": [
+     "walked",
+     "was walking",
+     "walk"
+    ],
+    "answer": 1,
+    "why": "The long background action = was walking. 'Started' is the short interruption."
+   },
+   {
+    "q": "We were watching TV when the lights ______ out.",
+    "options": [
+     "go",
+     "were going",
+     "went"
+    ],
+    "answer": 2,
+    "why": "The short 'pop!' interruption takes the past simple: went."
+   },
+   {
+    "q": "______ I was having a bath, the phone rang.",
+    "options": [
+     "While",
+     "When",
+     "During"
+    ],
+    "answer": 0,
+    "why": "'While' goes with the long action (was having). 'When' fits the short one."
+   },
+   {
+    "q": "Which sentence is correct?",
+    "options": [
+     "While I walked home, it was starting to rain.",
+     "While I was walking home, it started to rain.",
+     "While I was walking home, it was starting to rain."
+    ],
+    "answer": 1,
+    "why": "Long action → was walking. Short 'pop!' action → started."
+   },
+   {
+    "q": "They ______ talking while we ______ eating. (two long actions together)",
+    "options": [
+     "were / were",
+     "was / was",
+     "were / was"
+    ],
+    "answer": 0,
+    "why": "Two long actions at the same time → past continuous for both. 'They' and 'we' both take were."
+   },
+   {
+    "q": "Both actions are long. What do you use?",
+    "options": [
+     "past simple for both",
+     "was/were + -ing for both",
+     "one of each"
+    ],
+    "answer": 1,
+    "why": "Two long actions running at once → two past continuous verbs: 'While I was reading, he was drawing.'"
+   }
+  ]
+ }
+}

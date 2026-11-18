@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>🕰️ Abigail's Past Tense Course — Units 10 to 14</title>
+<meta name="description" content="A serious-but-fun 20-minute bootcamp on becoming a YouTuber: understanding the job, planning a gaming channel, scripting videos that keep viewers, uploading with proper titles and thumbnails, growing an audience — and staying safe as a 12-year-old creator. Built for a Roblox and K-pop fan in Hong Kong.">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#101a2b">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏱️</text></svg>">
+<script>
+  /* set theme before first paint to avoid a flash */
+  (function () {
+    try {
+      var t = localStorage.getItem("abigail-past.theme");
+      document.documentElement.dataset.theme = (t === "light" || t === "dark") ? t : "dark";
+    } catch (e) { document.documentElement.dataset.theme = "dark"; }
+  })();
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<div class="confetti" aria-hidden="true"></div>
+
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">☰</button>
+  <span class="brand-badge" aria-hidden="true">🕰️</span>
+  <div class="brand">
+    <span class="brand-title">The Past Tense</span>
+    <span class="brand-sub">Units 10–14 · for Abigail · 25 minutes 🕰️</span>
+  </div>
+  <div class="topbar-tools">
+    <span class="progress-pill" id="progressPill" aria-live="polite" title="Steps marked complete">0 / 9 done</span>
+    <button class="icon-btn theme-btn" id="themeBtn" type="button" aria-label="Switch to light theme" title="Switch theme">☀️</button>
+  </div>
+  <div class="progressbar" id="progressBar" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="9" aria-valuenow="0"><span></span></div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar" aria-label="Course sections">
+    <div class="search-wrap">
+      <span class="search-ico" aria-hidden="true">🔎</span>
+      <label class="sr-only" for="search">Find a step or a phrase</label>
+      <input id="search" type="search" placeholder="Find a unit or a rule…" autocomplete="off" spellcheck="false">
+      <p class="search-hint" id="searchHint" aria-live="polite"></p>
+    </div>
+    <div class="nav-list" id="navList"></div>
+    <p class="nav-foot">One past only! ⭐</p>
+  </nav>
+
+  <div class="scrim" id="scrim" hidden></div>
+
+  <main id="content" class="content" tabindex="-1">
+    <div class="content-inner">
+      <article class="card">
+        <div class="section-head">
+          <div class="sec-emoji" id="sectionEmoji" aria-hidden="true">🎤</div>
+          <div class="sec-meta">
+            <p class="eyebrow" id="sectionGroup"></p>
+            <h1 id="sectionTitle"></h1>
+            <p class="sec-blurb" id="sectionBlurb"></p>
+          </div>
+        </div>
+        <div id="toggleWrap">
+          <label class="done-toggle">
+            <input type="checkbox" id="doneToggle">
+            <span class="done-text" id="doneText">⭐ I finished this step</span>
+          </label>
+        </div>
+        <div class="prose" id="sectionBody"></div>
+        <div id="quizHost" hidden></div>
+        <nav class="pager" aria-label="Section navigation">
+          <button class="pager-btn" id="prevBtn" type="button">← Back</button>
+          <button class="pager-btn" id="nextBtn" type="button">Next step →</button>
+        </nav>
+      </article>
+    </div>
+  </main>
+</div>
+
+<footer class="site-foot">
+  <p>🕰️ <strong>Abigail's Past Tense Course</strong> · 25 minutes, units 10 to 14<br>
+  I was doing my homework when… the whole past tense, explained properly. 🏖️⭐</p>
+</footer>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+<script src="timer.js"></script>
+</body>
+</html>
